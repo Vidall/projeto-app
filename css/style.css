@@ -38,10 +38,11 @@ header h1 {
 header p {
     font-family: var(--fonte-padrao);
     font-size: 100%;
-    max-width: 600px;
+    max-width: 500px;
     margin: 0px auto;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 30px;
 }
 
 /*Formatação do Menu*/
@@ -76,7 +77,9 @@ main {
     padding:20px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.432);
 }
-main h1 {    
+main h1 {   
+    font-family: var(--fonte-destaque); 
+    font-weight: normal;
     font-size: 1.8em;
     margin-bottom: 10px;    
     padding: 2px 10px;
@@ -90,7 +93,7 @@ main h2 {
 main p {
     text-indent: 20px;
     text-align: justify;
-    line-height: 2em;
+    line-height: 1.5em;
     margin-bottom: 40px;
     margin-top: 16px;
     
@@ -102,16 +105,22 @@ main a {
     text-decoration: none;
     padding: 2px;
 }
+main img {
+    max-width: 100%;
+}
 main img.pequena {
     max-width: 100px;
     margin: auto;
     display: block;
 }
-aside ul {
+main p.fluxo {
+    margin-bottom: 10px;
+}
+main ul {
     list-style-position: inside;
     list-style: none;
 }
-aside li {
+main li {
     padding-left: 10px;
 }
 article {
