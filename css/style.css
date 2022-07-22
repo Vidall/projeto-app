@@ -28,12 +28,20 @@ header {
     text-align: center;
     background-image: linear-gradient(to bottom, #4383bb, #12426b);
 }
+header div.img-cabecalho{
+    display: block;
+}
+header img{
+    width: 75px;
+    height: 75px;
+}
 header h1 {
     font-size: 3em;
     font-family: var(--fonte-destaque);
     font-weight: normal;
     padding-top: 15px;
-    margin-bottom: 15px;   
+    margin-bottom: -18px;   
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.384);
 }
 header p {
     font-family: var(--fonte-padrao);
@@ -43,6 +51,7 @@ header p {
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.384);
 }
 
 /*Formatação do Menu*/
@@ -112,6 +121,7 @@ main img.pequena {
     max-width: 100%;
     margin: auto;
     display: block;
+    text-align: center;
 }
 main p.fluxo {
     margin-bottom: 10px;
@@ -125,6 +135,19 @@ main li {
 }
 article {
     padding-top: 15px;
+}
+table {
+    background-color: var(--cor01);
+    margin: auto;
+    min-width: 80%;
+    border-style: groove;
+}
+
+
+table tr.titulo1 {
+    background-color: var(--cor04);
+    text-align: center;
+    color: white;
 }
 
 /*Rodapé*/
