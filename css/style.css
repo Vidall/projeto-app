@@ -24,41 +24,38 @@ body {
 header {         
     color: white;
     min-height: 150px;
-    background-color: var(--cor04);
-    text-align: center;
+    background-color: var(--cor04);    
     background-image: linear-gradient(to bottom, #4383bb, #12426b);
 }
-header div.img-cabecalho{
-    display: block;
-}
-header img{
-    width: 75px;
-    height: 75px;
-}
-header h1 {
-    font-size: 3em;
+
+header h1 {    
     font-family: var(--fonte-destaque);
-    font-weight: normal;
-    padding-top: 15px;
-    margin-bottom: -18px;   
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.384);
+    text-align: center;
+    margin-top: -70px;
+    font-size: 300%;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.247);
 }
+
+
 header p {
     font-family: var(--fonte-padrao);
-    font-size: 100%;
+    font-size: 1.3em;
     max-width: 500px;
+    max-height: 150px;
     margin: 0px auto;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 30px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.384);
+    margin-top: 10px;
+    text-align: center;
 }
 
 /*Formatação do Menu*/
 nav {
     background-color: var(--cor04);
     min-height: 31px;
-
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.397);
 }
 nav a {
     font-family: var(--fonte-padrao);
@@ -67,8 +64,6 @@ nav a {
     font-size: 1.1em;
     padding: 10px;
     border-radius: 5px;
-    
-
 }
 nav a:hover{
     background-color: var(--cor01);
@@ -167,4 +162,29 @@ footer a {
 }
 footer a.copyright::after{
     content: "\00a0\A9";
+}
+
+
+/*          Formatação da pagina contatos                 */
+
+main#contato h1 {
+    text-align: center;
+    background-color: #606060;
+    color: white;
+    font-size: 2em;
+}
+
+main#contato p {
+    display: inline-block;   
+    margin: auto; 
+    text-indent: 10px;
+}
+main#contato img {
+    padding-right: 10px;    
+}
+main#contato a {
+    background-color: transparent;
+}
+main#contato h2 {
+    margin: 10px 0px 
 }

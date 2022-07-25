@@ -6,31 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/icone.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
-    <title>AppEmergência</title>
+    <title>P.I.E</title>
 </head>
 <body>
     <header>
-        <h1>App Emergência</h1>
-        <div class="img-cabecalho"><img src="imagens/Icone.png" alt="icone"></div>
-        <p>Gerenciamento, controle, armazenamento e praticidade; tudo de maneira simples fácil e ágil.</p>
+            <div id="titulo-pai">
+                <div id="titulo-imagem">
+                    <picture>
+                        <source media="(max-width: 315px)" srcset="imagens/sem-icone.png">
+                        <source media="(max-width: 350px)" srcset= "imagens/Icone-pqn.png">                        
+                        <img src="imagens/Icone.png" alt="Icone">
+                    </picture>
+                </div>
+                <div id="titulo-h1">
+                    <h1>P . I . E</h1>
+                </div>             
+            </div>
+            <p>Gerenciamento, controle, armazenamento e praticidade; tudo de maneira simples fácil e ágil.</p>
     </header>
     <nav>
-        <a href="#">Inicio</a>
+        <a href="index.html">Inicio</a>
         <a href="#">Visão</a>
-        <a href="#">Contatos</a>
+        <a href="contato.html">Contatos</a>
     </nav>
     <main>
         <article>
             <h1>Criação</h1>
             <p>O projeto <strong>P.I.E</strong>(Portal Integrado da Emergência) foi elaborado em Junho/2022 por <a href="https://www.linkedin.com/in/luan-vidal-da-cunha-52023b21a/" target="_blank">Luan Vidal da Cunha</a> e <a href="https://www.linkedin.com/in/vinicius-rocha-988599237/" target="_blank">Vinicius Pereira Campos Rocha</a>, tem como principal objetivo controlar a produção de maneira simples, coletando e armazenando informações realizadas em campo</p>
             <h2>Finalidade</h2>
-            <p>Afins de buscar meios para armazenar informações de serviços e evidências otimizando o tempo e que com as devidas permissões a organização possa consultar, gerencias essas informações e evidências; assim foi criado o <strong>P.I.E</strong></p>
-            <h2>Funções</h2>
+            <p>Afins de controlar de maneira simples e eficaz informações, tanto quanto escritas e evidenciadas por meio de fotos, surgiu a necessidade de elaboração de um projeto que integrasse tanto a produção direta quanto a indireta, porém o desafio se amplia quando se trata de alcançar um público mais elevado na tecnologia e também o menos elevado, com estudos e dedicação surgiu o <strong>P.I.E</strong></p>
+            <h2>Funções (Produção direta)</h2>
             <p>Interface intuitiva e dinâmica, com apenas 3 passos os serviços já são armazenados para um site SharePoint, o qual somente com domínio empresarial pode consultar as fotos anexadas pelos colaboradores em campo</p>
             <picture>
                 <source media="(max-width: 500px)" srcset="imagens/4passos-pqn.png" class="pequena">
                 <img src="imagens/4-passos.png" alt="Aplicativo power apps">
-            </picture> 
+            </picture>
+            <h2>Funções (Produção indireta)</h2> 
+            <p>Após serem realizadas o cadastro das atividades em campo, automaticamente com o fluxo do Power Automate é criado um item numa lista SharePoint, e uma pasta em uma biblioteca com as fotos evidenciadas.<br>
+                &nbsp;&nbsp;&nbsp; Caso haja o preenchimento incorreto das informações, ou ausência de evidências, o fluxo dispara para o e-mail informações da equipe e o tipo da ocorrência.<br>
+                &nbsp;&nbsp;&nbsp; Além da consulta ser super fácil pelo site, também conta com um exportação linkada para o excel, com tabelas atualizadas em tempo real
+                </p>
+            <picture>
+                <source media="(max-width: 500px)" srcset="imagens/prod-indireta-pqn.png">
+                <img src="imagens/prod-indireta.png" alt="lista Sharepoint">
+            </picture>
             <h2>Fluxos</h2>
             <p class="fluxo">O <strong>P.I.E</strong> é um sistema elaborado pelas ferramentas de software:</p>             
             <aside>
